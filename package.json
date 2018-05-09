@@ -1,11 +1,10 @@
 {
-    "name": "texturepacker",
-    "version": "0.0.1",
+    "name": "texturepacker-command-line",
+    "version": "0.0.3",
     "description": "Node wrapper around TexturePacker command line tool",
-    "main": "index.js",
+    "main": "./dist/index.js",
     "repository": {
-        "url":
-            "https://github.com/strewhella/node-texturepacker-command-line-wrapper"
+        "url": "https://github.com/strewhella/node-texturepacker-command-line"
     },
     "scripts": {
         "test": "npm run build && jest",
