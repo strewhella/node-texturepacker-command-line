@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="68px" viewBox="0 0 105 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eye" transform="translate(2.000000, 1.000000)">
+            <path d="M0,34.7373955 C10.3932967,11.5791318 27.3843205,2.04754085e-13 50.9730714,0 C74.5618223,-2.03993395e-13 91.2374651,11.5791318 101,34.7373955 C91.8659188,55.5791318 75.190276,66 50.9730714,66 C26.7558668,66 9.76484305,55.5791318 0,34.7373955 Z" id="Path-3" stroke="#454545" stroke-width="2" fill="#FFFFFF"></path>
+            <ellipse id="Oval-3" stroke="#444444" fill="#D8D8D8" cx="51" cy="32.5" rx="28" ry="32.5"></ellipse>
+            <ellipse id="Oval-3" fill="#2B2B2B" cx="50" cy="33" rx="13" ry="15"></ellipse>
+            <path d="" id="Path-2" stroke="#979797"></path>
+        </g>
+    </g>
+</svg>

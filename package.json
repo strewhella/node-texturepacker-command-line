@@ -1,0 +1,28 @@
+{
+    "name": "texturepacker",
+    "version": "0.0.1",
+    "description": "Node wrapper around TexturePacker command line tool",
+    "main": "index.js",
+    "repository": {
+        "url":
+            "https://github.com/strewhella/node-texturepacker-command-line-wrapper"
+    },
+    "scripts": {
+        "test": "npm run build && jest",
+        "build": "npx babel src/index.js -o dist/index.js",
+        "watch": "npx babel src/index.js -o dist/index.js -w",
+        "example": "npm run build && node ./example/example.js"
+    },
+    "author": "Simon Trewhella",
+    "license": "MIT",
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "semi": true
+    },
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "jest": "^22.4.3"
+    }
+}
