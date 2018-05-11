@@ -4,7 +4,21 @@ const execProcess = util.promisify(require('child_process').exec);
 export async function exec(path, opts) {
     let command = buildCommand(path, opts);
 
-    return await execProcess(command);
+    return await execProcess(command)
+        .then(output => {
+            if (output && output.stdout) {
+                console.log(output.stdout);
+            }
+
+            if (output && output.stderr) {
+                console.error(output.stderr);
+            }
+        })
+        .catch(err => {
+            if (err) {
+                console.error(err);
+            }
+        });
 }
 
 export function buildCommand(path, opts) {
