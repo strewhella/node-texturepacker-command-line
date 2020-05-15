@@ -1,6 +1,6 @@
 {
     "name": "texturepacker-command-line",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Node wrapper around TexturePacker command line tool",
     "main": "./dist/index.js",
     "repository": {
@@ -19,7 +19,7 @@
         "singleQuote": true,
         "semi": true
     },
-    "dependencies": {
+    "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-preset-env": "^1.6.1",
         "jest": "^22.4.3"
